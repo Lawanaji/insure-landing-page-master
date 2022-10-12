@@ -1,0 +1,133 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+  font-family: "Karla", sans-serif;
+}
+
+.nav_bar {
+  position: absolute;
+  left: 700px;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  color: #837d87;
+  gap: 50px;
+}
+
+.btn_1 {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: #2b272f;
+}
+
+.btn_1 a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.btn_1:hover {
+  background: #ffff;
+  border: 1px #2b272f solid;
+}
+
+.btn_1:hover a {
+  color: #2b272f;
+}
+
+hr {
+  width: 100px;
+  position: relative;
+  left: -40%;
+}
+
+.content {
+  width: 100%;
+  height: 70vh;
+  background: #2d2640;
+}
+
+.right {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  right: -670px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 2;
+}
+
+.left {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+  left: -260px;
+  top: -550px;
+}
+
+.intro {
+  width: 25%;
+  height: 25%;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+  left: 800px;
+  bottom: 300px;
+  z-index: 2;
+}
+
+.content_1 {
+  padding: 30px;
+}
+
+.content_2 {
+  padding-left: 50px;
+  position: relative;
+  top: -150px;
+  left: 100px;
+}
+
+.content_2 h1 {
+  color: #ffff;
+  font-size: 30px;
+}
+
+.content_2 p {
+  color: white;
+}
+
+.btn_2 {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: #ffff;
+}
+
+.btn_2 a {
+  text-decoration: none;
+  color: #2d2640;
+}
+
+.btn_2:hover {
+  background: #2b272f;
+  border: 1px white solid;
+}
+
+.btn_2:hover a {
+  color: #ffff;
+}
+
+.section_2 {
+  padding: 50px;
+}
+/*# sourceMappingURL=style.css.map */
